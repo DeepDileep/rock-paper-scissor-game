@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 200px;
+  position: absolute;
+  transform: translate(-50%,-65%);
+}
+
+.wrapper {
+  display: flex;
+}
+
+h2 {
+  color: rgb(36, 36, 36);
+  font-family: poppins;
+  position: relative;
+  top: 9%;
+  font-size: 3rem;
+}
+
+.timer{
+    position: absolute;
+    height: 75px;
+    width: 200px;
+    border: 3px solid rgb(50, 50, 50);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(39, 39, 39);
+    font-family: poppins;
+    font-size: 2rem;
+    top: 5vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+p {
+  color: rgb(36, 36, 36);
+  font-family: poppins;
+  position: relative;
+  bottom: 110px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.computer {
+  height: 100vh;
+  width: 50vw;
+  background-color: rgb(230, 230, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user {
+  height: 100vh;
+  width: 50vw;
+  background-color: rgb(255, 255, 50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.user-btns {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10vh;
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  color: rgb(36, 36, 36);
+  font-family: poppins;
+  font-weight: 600;
+}
+
+.rock-btn {
+  background-color: rgb(106, 106, 106);
+  color: white;
+}
+
+.paper-btn {
+  background-color: orange;
+  color: white;
+}
+
+.scissor-btn {
+  background-color: silver;
+  color: white;
+}
