@@ -4,8 +4,46 @@
 // const paperBtn = document.querySelector(".paper-btn");
 // const sissorBtn = document.querySelector(".sissor-btn");
 
+// setTimeout(function () {
+//   pointMesg.forEach(function (el) {
+//     el.style.display = "none";
+//   });
+//   gameOn = true;
+// }, 3000);
+
+// pointMesg.forEach(function (ele) {
+//   ele.style.display = "none";
+// });
+
+// pointMesg.forEach(function (ele) {
+//   ele.style.display = "none";
+// });
+
+   // pointMesg.forEach(function (ele) {
+      //   ele.style.display = "block";
+      // });
+
+      
+
+      // setTimeout(function () {
+      //   pointMesg.forEach(function (el) {
+      //     el.style.display = "none";
+      //   });
+      //   gameOn = true;
+      // }, 3000);
+
+      // (function (){
+
+//     let sec = 0
+//     timer = setInterval(()=>{
+//      ele.innerHTML = '00:'+sec;
+//      sec --;
+//     },1000)
+// })
+
 const images = document.querySelectorAll(".images");
 const btns = document.querySelectorAll("button");
+const pointMesg = document.querySelector('.point-message')
 
 let ele = document.getElementById("timer");
 let timer = function (timeEle) {
@@ -21,15 +59,6 @@ let timer = function (timeEle) {
     }, 1000);
   }
 };
-
-// (function (){
-
-//     let sec = 0
-//     timer = setInterval(()=>{
-//      ele.innerHTML = '00:'+sec;
-//      sec --;
-//     },1000)
-// })
 
 images.forEach(function (el) {
   el.style.display = "none";
