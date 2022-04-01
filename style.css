@@ -34,7 +34,7 @@ h5{
 .point-message{
   position: absolute;
   height: 4rem;
-  width: 14rem;
+  width: 12rem;
   border: 3px solid rgb(43, 43, 43);
   display: flex;
   justify-content: center;
