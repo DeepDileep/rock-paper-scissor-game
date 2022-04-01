@@ -107,6 +107,38 @@ btns.forEach((btn) => {
       document.querySelector(
         ".user-images img"
       ).src = `imgs/${this.textContent}.png`;
+
+      if(image == this.textContent){
+        console.log("Tie");
+        return;
+      }
+
+      else if(image == "rock"){
+        if(this.textContent == 'paper'){
+          console.log('User wins');
+        }
+        else{
+          console.log('Computer wins');
+        }
+      }
+
+      else if(image == "paper"){
+        if(this.textContent == 'rock'){
+          console.log('Computer wins');
+        }
+        else{
+          console.log('User wins');
+        }
+      }
+
+      else{
+        if(this.textContent == 'rock'){
+          console.log('User wins');
+        }
+        else{
+          console.log('Computer wins');
+        }
+      }
     }
   });
 });
