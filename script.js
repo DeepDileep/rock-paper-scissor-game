@@ -19,20 +19,20 @@
 //   ele.style.display = "none";
 // });
 
-   // pointMesg.forEach(function (ele) {
-      //   ele.style.display = "block";
-      // });
+//    pointMesg.forEach(function (ele) {
+//         ele.style.display = "block";
+//       });
 
       
 
-      // setTimeout(function () {
-      //   pointMesg.forEach(function (el) {
-      //     el.style.display = "none";
-      //   });
-      //   gameOn = true;
-      // }, 3000);
+//       setTimeout(function () {
+//         pointMesg.forEach(function (el) {
+//           el.style.display = "none";
+//         });
+//         gameOn = true;
+//       }, 3000);
 
-      // (function (){
+//       (function (){
 
 //     let sec = 0
 //     timer = setInterval(()=>{
@@ -142,3 +142,5 @@ btns.forEach((btn) => {
     }
   });
 });
+
+addEventListener(function ())
